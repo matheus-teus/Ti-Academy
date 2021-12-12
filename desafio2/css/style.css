@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 100%;
+    --cor-border-geral: #2196f3;
+    --cor-border-geral-2: #3d5afe;
+    --cor-border-geral-3: #0d47a1;
+    --font-padrao: verdana;
+    --font-cor-titulo: #fff;
+}
+
+header {
+    width: auto;
+    height: 200px;
+    background-image: linear-gradient( #2196f3, #3d5afe, #0d47a1);
+}
+
+.titulo {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    width: 95%;
+    font-family: var(--font-padrao);
+}
+
+.subtitulo {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 80px;
+    width: 95%;
+    font-family: var(--font-padrao);
+    font-size: 25px;
+}
+
+.icons-list {
+    font-size: 64px;
+    margin-top: 150px;
+    background-color: #fff;
+    color: #2196f3;
+    border-radius: 100%;
+    padding: 10px;
+    margin-left: 560px;
+}
+
+main {
+    padding: 10px;
+    line-height: 30px;
+    position: relative;
+}
+
+section#formulario {
+    width: 30%;
+    height: 100%;
+    margin: 30px;
+    padding: 5px;
+    max-width: 10px;
+}
+
+#meio {
+    position: absolute;
+    top: 250%;
+    left: 55%;
+    width: 500px;
+    height: auto;
+    margin-left: -335px;
+    margin-top: -190px;
+    text-align: left;
+}
+
+fieldset {
+    padding-left: 45px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.txt {
+    width: 400px;
+    height: 25px;
+}
+
+input#botao {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #0d47a1;
+    margin-top: 10px;
+    background-color: #2196f3;
+    color: #fff;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: auto;
+}
